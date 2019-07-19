@@ -1,0 +1,12 @@
+[package]
+name = "RocksDB_example"
+version = "0.1.0"
+authors = ["Marcelo Almeida <marcelo.almeida@talkdesk.com>"]
+edition = "2018"
+
+[dependencies]
+rocksdb = "0.12.2"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
